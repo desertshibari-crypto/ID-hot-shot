@@ -1,0 +1,14 @@
+{
+  "name": "noble-ifta",
+  "version": "0.1.0",
+  "description": "IFTA quarterly fuel-tax reporting module for Noble Dispatch",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/ifta.test.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pdfkit": "^0.15.0",
+    "pg": "^8.12.0"
+  }
+}
